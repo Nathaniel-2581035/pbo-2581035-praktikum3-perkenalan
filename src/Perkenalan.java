@@ -9,17 +9,19 @@ public class Perkenalan {
 
         System.out.print("Masukkan Umur Anda: ");
         int umur = scanner.nextInt();
+        scanner.nextLine();
 
         System.out.print("Masukkan NIM Anda: ");
         int nim = scanner.nextInt();
 
         System.out.print("Masukkan Tinggi Badan Anda: ");
         double tinggi = scanner.nextDouble();
+        scanner.nextLine();
 
         System.out.print("Masukkan Asal Kota Anda: ");
         String asal_kota = scanner.nextLine();
 
-        System.out.println("Halo " + nama + ", umur Anda " + umur + " Tahun " + );
+        System.out.println("Halo " + nama + ", umur Anda " + umur + " Tahun " + ", NIM " + nim + ", Tinggi " + "cm" + ", Asal Kota " + asal_kota);
 
 
     }
